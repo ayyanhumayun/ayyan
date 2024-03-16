@@ -29,10 +29,6 @@ $(document).ready(function() {
         } else {
             clearFieldHighlight("#email");
         }
-
-        // Username validation
-        // ... Add validation rules for other fields
-
         // Prevent form submission if invalid
         if (!valid) {
             event.preventDefault();
