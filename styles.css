@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(148, 163, 177);
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: aliceblue;
+  }
+  
+  form {
+    padding: 20px;
+    border: 1px solid #232323;
+    border-radius: 5px;
+    margin-right: 85px;
+  }
+  
+  .input-field {
+    margin-bottom: 35px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 1
+  }
