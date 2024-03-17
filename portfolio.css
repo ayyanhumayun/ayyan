@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1, h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  main {
+    padding: 0 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project {
+    width: calc(33% - 20px); /* Adjust project width as needed */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  /* ... your existing CSS styles ... */
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: #111; /* Dark background */
+    color: #eee; /* Light text */
+  }
+  
+  body.dark-theme h1,
+  body.dark-theme h2 {
+    color: #ccc; /* Lighter headings */
+  }
+  
+  body.dark-theme a {
+    color: #999; /* Lighter links */
+  }
+  
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
